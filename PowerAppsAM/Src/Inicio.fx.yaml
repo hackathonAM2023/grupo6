@@ -1,0 +1,106 @@
+Inicio As screen:
+    Fill: =RGBA(215, 223, 240, 1)
+
+    Container2 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(217, 129, 89, 1)
+        Height: =1136
+        Width: =128
+        ZIndex: =1
+
+        Icon6 As icon.Home:
+            Height: =128
+            Icon: =Icon.Home
+            Width: =106
+            X: =8
+            ZIndex: =1
+
+    Circle2 As circle:
+        BorderColor: =RGBA(39, 113, 194, 1)
+        BorderThickness: =5
+        Fill: =RGBA(255, 255, 255, 1)
+        X: =14
+        Y: =183
+        ZIndex: =2
+
+    Label14 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        OnSelect: =Navigate(Notelist,ScreenTransition.Fade)
+        Size: =40
+        Text: ="N"
+        Width: =86
+        X: =14
+        Y: =198
+        ZIndex: =3
+
+    Circle3 As circle:
+        BorderColor: =RGBA(4, 83, 135, 1)
+        BorderThickness: =4
+        Fill: =RGBA(255, 255, 255, 1)
+        X: =14
+        Y: =332
+        ZIndex: =4
+
+    Circle4 As circle:
+        BorderThickness: =4
+        Fill: =RGBA(255, 255, 255, 1)
+        X: =14
+        Y: =478
+        ZIndex: =5
+
+    Circle5 As circle:
+        BorderThickness: =4
+        Fill: =RGBA(255, 255, 255, 1)
+        X: =14
+        Y: =624
+        ZIndex: =6
+
+    Circle6 As circle:
+        BorderThickness: =4
+        Fill: =RGBA(255, 255, 255, 1)
+        X: =14
+        Y: =774
+        ZIndex: =7
+
+    Label15 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =89
+        OnSelect: =Navigate(Calendar,ScreenTransition.Fade)
+        Size: =40
+        Text: ="C"
+        Width: =71
+        X: =28
+        Y: =337
+        ZIndex: =8
+
+    Label17 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        OnSelect: =Navigate(Pancho,ScreenTransition.Fade)
+        Size: =40
+        Text: ="P"
+        Width: =71
+        X: =43
+        Y: =490
+        ZIndex: =9
+
+    Label18 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =58
+        OnSelect: =Navigate(Retos,ScreenTransition.Fade)
+        Size: =40
+        Text: ="R"
+        Width: =71
+        X: =38
+        Y: =638
+        ZIndex: =10
+
+    Icon7 As icon.Person:
+        Icon: =Icon.Person
+        OnSelect: =Navigate(servicios,ScreenTransition.Fade)
+        X: =32
+        Y: =793
+        ZIndex: =11
+

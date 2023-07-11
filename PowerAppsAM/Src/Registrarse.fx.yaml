@@ -1,0 +1,86 @@
+Registrarse As screen:
+    Fill: =RGBA(208, 228, 242, 1)
+
+    Image3 As image:
+        Height: =471
+        Image: ='Captura de pantalla (20)'
+        ImagePosition: =ImagePosition.Fill
+        Width: =488
+        X: =74
+        Y: =14
+        ZIndex: =1
+
+    TextInput2 As text:
+        Default: ="Entrada de texto"
+        Font: =Font.'Segoe UI'
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =38
+        Y: =472
+        ZIndex: =2
+
+    TextInput3 As text:
+        Default: ="Entrada de texto"
+        Font: =Font.'Segoe UI'
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =38
+        Y: =567
+        ZIndex: =3
+
+    Label5 As label:
+        Align: =Align.Center
+        Font: =Font.Verdana
+        Height: =70
+        Size: =21
+        Text: ="Did you forget your password?"
+        Width: =560
+        X: =38
+        Y: =1001
+        ZIndex: =4
+
+    Label6 As label:
+        Align: =Align.Center
+        Font: =Font.Verdana
+        Height: =70
+        Size: =21
+        Text: ="Log in"
+        Width: =560
+        X: =38
+        Y: =379
+        ZIndex: =5
+
+    Label8 As label:
+        Align: =Align.Center
+        Font: =Font.Verdana
+        Height: =70
+        OnSelect: =Navigate(Registrarse2,ScreenTransition.Fade)
+        Size: =25
+        Text: ="Check in"
+        Width: =560
+        X: =38
+        Y: =851
+        ZIndex: =7
+
+    Icon2 As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Entrada,ScreenTransition.Fade)
+        X: =10
+        Y: =36
+        ZIndex: =9
+
+    Label12 As label:
+        Align: =Align.Center
+        Fill: =RGBA(250, 155, 112, 1)
+        Font: =Font.Verdana
+        Height: =70
+        OnSelect: =Navigate(Inicio,ScreenTransition.Fade)
+        Size: =30
+        Text: ="Enter"
+        Width: =560
+        X: =38
+        Y: =708
+        ZIndex: =10
+

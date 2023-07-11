@@ -1,0 +1,30 @@
+Notelist As screen:
+
+    Icon8 As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Inicio,ScreenTransition.Fade)
+        X: =20
+        Y: =40
+        ZIndex: =1
+
+    TextInput10 As text:
+        Default: =""
+        Height: =76
+        Size: =21
+        Width: =534
+        X: =4
+        Y: =212
+        ZIndex: =2
+
+    Label19 As label:
+        Align: =Align.Center
+        Font: =Font.Verdana
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =40
+        Text: ="Notelist "
+        Width: =560
+        X: =40
+        Y: =66
+        ZIndex: =3
+

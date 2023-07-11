@@ -1,0 +1,23 @@
+Entrada As screen:
+    Fill: =RGBA(211, 226, 240, 1)
+
+    Image1 As image:
+        Height: =959
+        Image: ='Captura de pantalla (20)'
+        Width: =640
+        ZIndex: =1
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(39, 67, 125, 1)
+        Font: =Font.Verdana
+        Height: =70
+        OnSelect: =Navigate(Registrarse,ScreenTransition.Fade)
+        Overflow: =
+        Size: =40
+        Text: ="YoungEconomy"
+        Width: =560
+        X: =40
+        Y: =673
+        ZIndex: =2
+
